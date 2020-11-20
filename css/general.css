@@ -1,0 +1,367 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'raleway', sans-serif;
+    background: #FfFfFf
+}
+
+
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+/*Header*/
+
+header {
+    background: rgba(255, 255, 255, .9);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.head {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo {
+    position: relative;
+    letter-spacing: 8px;
+}
+
+.head h1 {
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.head a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    margin: 0 5px;
+    text-transform: capitalize;
+    transition: left 0.3s ease-in-out;
+}
+
+.head a:hover {
+    text-decoration: underline;
+
+}
+
+.head nav {
+    padding-bottom: 15px;
+}
+
+/*Main*/
+
+.principal {
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f2f2f2;
+    width: 100%;
+
+
+}
+
+.informa {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+
+}
+
+.informa h2 {
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, .6);
+    line-height: 1.5;
+}
+
+.boton1 {
+    position: relative;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background: #1DA1F2;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.boton1:hover {
+    box-shadow: 0 0 7px rgba(0, 0, 0, .3);
+
+    background: #029af7;
+}
+
+.boton1 a {
+    text-decoration: none;
+    color: #f2f2f2;
+
+}
+
+.boton2 a {
+    text-decoration: none;
+    color: #2098f5;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.boton2 {
+    margin-bottom: 20px;
+}
+
+
+/*Objetivo*/
+
+.objetivo {
+    width: 100%;
+    background: #fff;
+
+}
+
+.obje {
+    padding-top: 70px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 70px;
+    line-height: 1.5;
+}
+
+.obje p {
+    font-size: 14px;
+}
+
+/*Why*/
+
+.why {
+    background: #fff;
+    width: 100%;
+}
+
+.why-use {
+    width: 80%;
+    margin: 0 auto;
+
+
+}
+
+.why-use h2 {
+    padding-top: 25px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 25px;
+}
+
+.why-use p {
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.7);
+
+
+}
+
+.why-use a {
+    text-decoration: none;
+    color: #1DA1F2;
+    font-weight: bold;
+}
+
+
+/*Uso*/
+
+.use {
+    background: #fff;
+    width: 100%;
+
+
+}
+
+
+
+
+
+.articulo {
+    padding-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+
+
+
+}
+
+.color {
+    top: 2px;
+    position: relative;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    padding-right: 50px;
+    width: 50px;
+    height: 50px;
+    background: #1DA1F2;
+
+}
+
+.text {
+    color: #8a8b8c
+}
+
+.text h4,
+p {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.text h4 {
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+#text-apart {
+    width: 80%;
+    margin: 0 auto;
+    color: #8a8b8c;
+
+}
+
+.new {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.new h2 {
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.new h4 {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+}
+
+.new p {
+    font-size: 14px;
+    color: #8a8b8c;
+    margin-bottom: 20px;
+}
+
+.new p,
+h4 {
+    line-height: 1.8;
+}
+
+.bluesection {
+    width: 100%;
+    background: #DEE9F1;
+    padding-top: 80px;
+}
+
+.button {
+    width: 80%;
+    margin: 0 auto;
+    padding: 16px 25px;
+    border: 0.5px solid #1DA1F2;
+    border-radius: 5px;
+
+
+}
+
+.grid-use {
+    padding-bottom: 60px;
+    background: #fff;
+}
+
+
+
+.button a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+
+@media (min-width:768px) {
+    .grid-use {
+        display: flex;
+        width: 85%;
+        margin: 0 auto;
+
+
+    }
+
+    .grid-use .use {
+        padding-bottom: 50px;
+        background-color: #fff;
+
+    }
+
+    .informa h2 {
+        font-size: 36px;
+    }
+
+    .obje p {
+        font-size: 27px;
+    }
+
+    .boton1 {
+        padding: 14px 20px 16px;
+    }
+
+    .boton1 a {
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .boton2 a {
+        font-size: 12px;
+    }
+
+    .head {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 15px;
+
+    }
+
+    .head .nave {
+        position: relative;
+        top: 3px;
+    }
+
+    .why-use p {
+        font-size: 16px;
+    }
+}
+
+
+@media (min-width:1024px) {
+    .grid-use {
+        display: flex;
+
+    }
+
+    .grid-use .use {
+        padding-bottom: 50px;
+    }
+}
